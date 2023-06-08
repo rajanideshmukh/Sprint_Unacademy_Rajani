@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="115.819" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Unacademy Profile Settings" name="Verify field on setting page" time="115.621">
+<system-out><![CDATA[
+Given Chrome is opened and Unacademy app is opened..........................passed
+Then User navigate onto Unacademy landing page..............................passed
+When User clicks on login button............................................passed
+Then User Navigates onto login page.........................................passed
+When User enters mobile number..............................................passed
+And Clicks on login button..................................................passed
+And User enter the OTP......................................................passed
+And User click on verify OTP button.........................................passed
+Then User Navigates on home page............................................passed
+When User clicks on profile icon............................................passed
+And User click on Setting option............................................passed
+Then User navigate to the profile setting page..............................passed
+Then User should see current profile information:...........................passed
+When Users go to the name field.............................................passed
+Then User able to click on the editnumber field.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
